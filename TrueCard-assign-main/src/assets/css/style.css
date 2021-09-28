@@ -1,0 +1,95 @@
+.home-main-container{
+    width: 100%;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+.home-container-button{
+    margin-top: 30px;
+}
+
+.search-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.search-container .searchBar{
+    height: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.158);
+    border-radius: 10px;
+}
+.search-container .searchBar:focus{
+    border: 1px solid #000;
+}
+.user-card{
+min-width:30vw;
+max-width: 30vw;
+min-height: 10vh;
+display: flex;
+justify-content: center;
+align-items: center;
+border: 3px solid rgb(238, 76, 76);
+border-radius: 10px;
+padding: 10px;
+margin: 10px 0px;
+cursor: pointer;
+}
+
+ .user-card__avatar img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.user-card__info{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 15px;
+}
+.user-card__name{
+    font-size: 1.4em;
+
+}
+
+.modal {
+    display: block; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 100; /* Sit on top */
+    padding-top: 200px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+      width: 30vw;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    border: 3px solid rgb(238, 76, 76);
+    border-radius: 10px;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
